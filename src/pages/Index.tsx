@@ -3,7 +3,10 @@ import Icon from "@/components/ui/icon";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
+    <div
+      className="min-h-screen flex items-center justify-center"
+      style={{ backgroundColor: "#444444" }}
+    >
       <div className="max-w-md w-full px-8 text-center">
         {/* Header */}
         <div className="mb-12">
